@@ -1,0 +1,35 @@
+<!-- favicon.svg — Minimal panda holding a J-shaped bamboo, Slytherin palette -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" aria-label="Panda with J bamboo">
+  <!-- dark backdrop + subtle silver border for favicon contrast -->
+  <rect width="512" height="512" rx="96" fill="#0B0F0E"></rect>
+  <rect x="12" y="12" width="488" height="488" rx="90" fill="none" stroke="#C0C0C0" stroke-width="18"></rect>
+
+  <!-- J-shaped bamboo (Slytherin green) -->
+  <path d="M360 100 v220 q0 60 -50 100 h-110" fill="none" stroke="#1A472A" stroke-width="56" stroke-linecap="round" stroke-linejoin="round"></path>
+  <!-- bamboo nodes (silver bands) -->
+  <line x1="332" y1="160" x2="388" y2="160" stroke="#C0C0C0" stroke-width="16" stroke-linecap="round"></line>
+  <line x1="332" y1="230" x2="388" y2="230" stroke="#C0C0C0" stroke-width="16" stroke-linecap="round"></line>
+  <line x1="332" y1="300" x2="388" y2="300" stroke="#C0C0C0" stroke-width="16" stroke-linecap="round"></line>
+
+  <!-- panda body (simple, high-contrast) -->
+  <ellipse cx="210" cy="330" rx="92" ry="72" fill="#FFFFFF" stroke="#111" stroke-width="12"></ellipse>
+  <!-- head -->
+  <circle cx="200" cy="200" r="68" fill="#FFFFFF" stroke="#111" stroke-width="12"></circle>
+  <!-- ears -->
+  <circle cx="160" cy="150" r="28" fill="#111"></circle>
+  <circle cx="240" cy="150" r="28" fill="#111"></circle>
+  <!-- eye patches + pupils -->
+  <ellipse cx="180" cy="200" rx="18" ry="22" fill="#111"></ellipse>
+  <ellipse cx="220" cy="200" rx="18" ry="22" fill="#111"></ellipse>
+  <circle cx="185" cy="198" r="5" fill="#FFFFFF"></circle>
+  <circle cx="225" cy="198" r="5" fill="#FFFFFF"></circle>
+  <!-- nose -->
+  <circle cx="200" cy="220" r="6" fill="#111"></circle>
+
+  <!-- arms (right arm overlaps bamboo to “hold” the J) -->
+  <path d="M150 300 Q190 335 225 305" fill="none" stroke="#111" stroke-width="40" stroke-linecap="round"></path>
+  <path d="M220 300 Q300 330 340 270" fill="none" stroke="#111" stroke-width="40" stroke-linecap="round"></path>
+
+  <!-- small silver highlight on bamboo tip for readability at 16px -->
+  <circle cx="360" cy="104" r="8" fill="#C0C0C0"></circle>
+</svg>

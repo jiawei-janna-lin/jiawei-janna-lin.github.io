@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Continuous Execution of High-Level Collaborative Tasks for Heterogeneous Robot Teams"
+date:   2024-06-24 02:13:02 +00:00
+image: /images/ltl.jpg
+categories: research
+author: "Jiawei Lin"
+authors: "Amy Fang*, Tenny Yin, <strong>Jiawei Lin</strong>, Hadas Kress-Gazit"
+venue: "arXiv"
+arxiv: https://arxiv.org/abs/2406.18019
+subtitle: "Under review"
+---
+
+We propose a control synthesis framework for a heterogeneous multi-robot system to satisfy collaborative tasks, where actions may take varying duration of time to complete.

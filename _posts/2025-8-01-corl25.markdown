@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "PrioriTouch: Adapting to User Contact Preferences for Whole-Arm Physical Human-Robot Interaction"
+date:   2025-08-01
+image: 
+categories: research
+author: "Jiawei Lin"
+venue: "9th Annual Conference on Robot Learning (CoRL)"
+authors: "Rishabh Madan*, <strong> Jiawei Lin</strong>, Mahika Goel, Amber Li, Angchen Xie, Xiaoyu Liang, Marcus Lee, Justin Guo, Pranav N. Thakkar, Rohan Banerjee, Jose Barreiros, Kate Tsui, Tom Silver, Tapomayukh Bhattacharjee"
+---
+Coming soon

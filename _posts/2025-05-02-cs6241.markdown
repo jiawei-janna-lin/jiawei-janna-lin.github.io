@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Car Dynamics Correction with Random Fourier Ridge Regression and Fast Optimal Control via DLRA Scheme of Hamilton-Jacobi-Bellman Equation: a Comparative Study"
+image: /images/cs6241.png
+year: 2025
+semester: spring
+categories: Cornell
+author: "Jiawei Lin"
+course: "CS6241: Numerical Methods for Data Science"
+---
+Using the EU long-term dataset, we develop and compare three approaches: raw INS integration, an Extended Kalman Filter with Random Fourier Features (EKF-RFF) for state estimation, and a tensor- train-based Hamilton-Jacobi-Bellman (HJB) solver with Dynamical Low-Rank Approximation (DLRA) for optimal control synthesis. 

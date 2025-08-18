@@ -40,6 +40,12 @@ strong {
   font-display: auto;
 }
 
+.authors { color: #666; }       
+.authors strong {
+  color: #000;            
+  font-weight: 700;  
+}
+
 h2 {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 22px;
@@ -58,6 +64,7 @@ h3 {
   padding: 0px;
   margin: 0px;
   display:inline; 
+  color: #1772d0; 
 }
 
 h1 {
@@ -103,3 +110,48 @@ span.highlight {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 //@import "highlights";
 //@import "svg-icons";
+
+// palette
+$accent: #1772d0;        // link color
+$accent-hover: #f09228;  // link hover color
+$highlight: #ffffd0;     // “highlighter” color
+
+// links
+a { color: $accent; text-decoration: none; }
+a:focus, a:hover { color: $accent-hover; text-decoration: none; }
+
+// highlight spans and text selection
+span.highlight { background-color: $highlight; }
+::selection { background: $highlight; color: #111; }
+
+table.news{
+  width:100%;
+  border-collapse:separate;
+  border-spacing:0;
+}
+table.news td{
+  padding-left:2.5%;      /* match other sections’ left padding */
+  padding-right:2.5%;
+}
+
+.news-date,
+.news-text{
+  vertical-align:baseline; /* date aligns with first line of text */
+  line-height:1.6;
+}
+
+.news-date{
+  width:8ch;               /* fixed column for dates */
+  font-weight:700;
+  padding-right:12px;      /* gap between date and text */
+}
+
+.news-row + .news-row .news-date,
+.news-row + .news-row .news-text{
+  padding-top:6px;         /* tighten inter-item spacing */
+}
+
+/* remove accidental paragraph gaps inside news text */
+.news-text p{ margin:0; }
+
+// .misc p { margin: 16px 0; line-height: 1.8; }

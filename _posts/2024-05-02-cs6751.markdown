@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Robot-assisted Dressing for Closed Geometry Clothing"
+image: /images/cs6751.png
+year: 2024
+semester: spring
+categories: Cornell
+author: "Jiawei Lin"
+course: "CS6751: Robot Manipulation"
+---
+We propose a grasp planning framework, created using pushing actions, that bunches up cloth in a
+manner similar to how humans handle cloth during dressing.
