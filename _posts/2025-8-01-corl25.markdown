@@ -2,10 +2,11 @@
 layout: post
 title:  "PrioriTouch: Adapting to User Contact Preferences for Whole-Arm Physical Human-Robot Interaction"
 date:   2025-08-01
-image: 
+image: /images/emprise.png
 categories: research
 author: "Jiawei Lin"
 venue: "9th Annual Conference on Robot Learning (CoRL)"
 authors: "Rishabh Madan*, <strong> Jiawei Lin</strong>, Mahika Goel, Amber Li, Angchen Xie, Xiaoyu Liang, Marcus Lee, Justin Guo, Pranav N. Thakkar, Rohan Banerjee, Jose Barreiros, Kate Tsui, Tom Silver, Tapomayukh Bhattacharjee"
+website: https://emprise.cs.cornell.edu/prioritouch/
 ---
-Coming soon
+We introduce PrioriTouch, a framework integrating a novel contextual bandit algorithm with hierarchical operational space control to learn user contact preferences and translate them into low-level pose and force control policies.
