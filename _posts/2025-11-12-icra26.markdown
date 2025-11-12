@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "High-Altitude Balloon Station-Keeping with First Order Model Predictive Control"
+date:   2025-11-11
+image: /images/balloon.png
+categories: research
+author: "Jiawei Lin"
+venue: "submitted to ICRA 2026"
+authors: "Myles Pasetsky*, <strong> Jiawei Lin</strong>*, Bradley Guo*, Sarah Dean"
+arxiv: https://www.arxiv.org/pdf/2511.07761
+---
+We revisit the assumption about the efficacy of model-based control for station-keeping by developing First-Order Model Predictive Control (FOMPC). By implementing the wind and balloon dynamics as differentiable functions in JAX, we enable gradient-based trajectory optimization for online planning. FOMPC outperforms a state-of-the-art RL policy, achieving a 24%
+improvement in time-within-radius (TWR) without requiring offline training, though at the cost of greater online computation per control step.
