@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "High-Altitude Balloon Station-Keeping with First Order Model Predictive Control"
-date:   2025-11-11
+date:   2026-01-31
 image: /images/balloon.png
 categories: research
 author: "Jiawei Lin"
-venue: "submitted to ICRA 2026"
+venue: "IEEE International Conference on Robotics and Automation (ICRA)"
 authors: "Myles Pasetsky*, <strong> Jiawei Lin</strong>*, Bradley Guo*, Sarah Dean"
 arxiv: https://www.arxiv.org/pdf/2511.07761
 ---
