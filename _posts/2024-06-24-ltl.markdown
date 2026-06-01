@@ -11,4 +11,4 @@ arxiv: https://arxiv.org/abs/2406.18019
 subtitle: "Under review"
 ---
 
-We propose a control synthesis framework for a heterogeneous multi-robot system to satisfy collaborative tasks, where actions may take varying duration of time to complete.
+We propose a control-synthesis framework for coordinating heterogeneous electromechanical systems under high-level task specifications. The framework supports collaborative tasks with actions of varying duration and enables continuous execution across different hardware platforms.

@@ -9,5 +9,4 @@ venue: "IEEE International Conference on Robotics and Automation (ICRA)"
 authors: "Myles Pasetsky*, <strong> Jiawei Lin</strong>*, Bradley Guo*, Sarah Dean"
 arxiv: https://www.arxiv.org/pdf/2511.07761
 ---
-We revisit the assumption about the efficacy of model-based control for station-keeping by developing First-Order Model Predictive Control (FOMPC). By implementing the wind and balloon dynamics as differentiable functions in JAX, we enable gradient-based trajectory optimization for online planning. FOMPC outperforms a state-of-the-art RL policy, achieving a 24%
-improvement in time-within-radius (TWR) without requiring offline training, though at the cost of greater online computation per control step.
+We study model-based control for station-keeping in atmospheric dynamical systems. We develop a first-order model-predictive control method and implement the wind and balloon dynamics as differentiable functions in JAX, enabling gradient-based trajectory optimization for online planning. 
